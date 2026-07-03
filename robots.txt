@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dallanearlwortham.github.io/modern-schoolhouse/sitemap.xml
