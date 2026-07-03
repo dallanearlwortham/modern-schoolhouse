@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment-retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
@@ -28,3 +28,14 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # GitHub Pages occasionally fails a deployment transiently
+      # ("Deployment failed, try again later") with nothing wrong in the
+      # artifact or workflow. Retry the deploy step itself, not the artifact
+      # upload - re-uploading a second "github-pages" artifact for the same
+      # run makes actions/deploy-pages fail with "Multiple artifacts found".
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+      - if: steps.deployment.outcome == 'failure' && steps.deployment-retry.outcome == 'failure'
+        run: exit 1
