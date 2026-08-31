@@ -3,7 +3,14 @@
 <channel>
   <title>The Modern Schoolhouse</title>
   <link>https://dallanearlwortham.github.io/modern-schoolhouse/</link>
-  <description>undefined</description>
+  <description>A K-12 education blog on school choice, teaching trends, and student success</description>
+  <item>
+    <title>How Charter Schools Are Winning the Recovery Race</title>
+    <link>https://dallanearlwortham.github.io/modern-schoolhouse/posts/charter-schools-post-pandemic-academic-recovery.html</link>
+    <guid>https://dallanearlwortham.github.io/modern-schoolhouse/posts/charter-schools-post-pandemic-academic-recovery.html</guid>
+    <pubDate>Mon, 31 Aug 2026 21:14:17 GMT</pubDate>
+    <description>New 2026 research shows charter schools outpacing traditional public schools in academic recovery—especially for Black, Hispanic, and low-income students. Here&apos;s what&apos;s driving it.</description>
+  </item>
   <item>
     <title>Chronic Absenteeism in 2026: Why School Design Matters</title>
     <link>https://dallanearlwortham.github.io/modern-schoolhouse/posts/chronic-absenteeism-2025-school-design-belonging-k8.html</link>
@@ -136,13 +143,6 @@
     <guid>https://dallanearlwortham.github.io/modern-schoolhouse/posts/school-culture-school-choice-factor.html</guid>
     <pubDate>Mon, 17 Aug 2026 17:51:40 GMT</pubDate>
     <description>Most families compare test scores and class sizes. But school culture — a school&apos;s values, identity, and community — may matter even more. Here&apos;s how to evaluate it.</description>
-  </item>
-  <item>
-    <title>AI Literacy Is Now a Core K-12 Skill. Are Schools Ready?</title>
-    <link>https://dallanearlwortham.github.io/modern-schoolhouse/posts/ai-literacy-k12-charter-schools-student-preparation.html</link>
-    <guid>https://dallanearlwortham.github.io/modern-schoolhouse/posts/ai-literacy-k12-charter-schools-student-preparation.html</guid>
-    <pubDate>Mon, 17 Aug 2026 17:00:21 GMT</pubDate>
-    <description>80% of K-12 students feel unprepared for AI. Here&apos;s why charter schools are best positioned to close that gap before graduation.</description>
   </item>
 </channel>
 </rss>
