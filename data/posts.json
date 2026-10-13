@@ -1,5 +1,18 @@
 [
   {
+    "slug": "charter-schools-dropout-recovery-re-engagement",
+    "title": "How Charter Schools Bring Dropouts Back",
+    "metaDescription": "Charter schools are leading dropout recovery in 2026. Here's what flexible schedules, credit recovery, and wraparound services actually look like—and why they work.",
+    "tags": [
+      "charter schools",
+      "dropout recovery",
+      "school choice",
+      "credit recovery",
+      "at-risk students"
+    ],
+    "publishedAt": "2026-10-13T00:15:55.293Z"
+  },
+  {
     "slug": "chronic-absenteeism-charter-high-schools-solutions",
     "title": "Why Students Stop Showing Up — and What Works",
     "metaDescription": "Chronic absenteeism is still well above pre-pandemic levels. Here's what research says about root causes and what charter high schools are doing to fix it.",
@@ -167,19 +180,6 @@
       "student success"
     ],
     "publishedAt": "2026-10-06T00:38:45.297Z"
-  },
-  {
-    "slug": "charter-schools-dropout-recovery-re-engagement",
-    "title": "How Charter Schools Bring Dropouts Back to Graduation",
-    "metaDescription": "Charter schools are reshaping dropout recovery in 2026 with flexible schedules, personalized plans, and wraparound support. Here's what makes these models work.",
-    "tags": [
-      "charter schools",
-      "dropout recovery",
-      "at-risk students",
-      "school choice",
-      "high school graduation"
-    ],
-    "publishedAt": "2026-10-06T00:32:46.629Z"
   },
   {
     "slug": "personalized-learning-k8-schools-research-families",
